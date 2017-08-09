@@ -1,0 +1,14 @@
+<layout version="0.1.0">
+    <routes_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>romantsov/routes/main.phtml</template>
+            </action>
+            <block type="page/template_links" name="top.links"/>
+            <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
+        </reference>
+    </routes_index_index>
+    <routes_index_second>
+        <update handle="routes_index_index" />
+    </routes_index_second>
+</layout>

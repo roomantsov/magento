@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <alanstormdotcom_Layoutviewer>
+      <active>true</active>
+      <codePool>local</codePool>
+    </alanstormdotcom_Layoutviewer>
+  </modules>
+</config>

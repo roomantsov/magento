@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Romantsov_Routes>
+            <active>1</active>
+            <codePool>local</codePool>
+        </Romantsov_Routes>
+    </modules>
+</config>

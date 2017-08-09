@@ -1,0 +1,19 @@
+<config>
+    <modules>
+        <Romantsov_Routes>
+            <version>0.1.0</version>
+        </Romantsov_Routes>
+    </modules>
+    <frontend>
+        <routers>
+            <routes>
+                <use>standard</use>
+                <args>
+                    <module>Romantsov_Routes</module>
+                    <frontName>romantsov</frontName>
+                </args>
+            </routes>
+        </routers>
+    </frontend>
+
+</config>
