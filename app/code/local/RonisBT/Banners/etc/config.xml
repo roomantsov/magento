@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <modules>
+        <RonisBT_Banners>
+            <version>0.1.0</version>
+        </RonisBT_Banners>
+    </modules>
+
+    <global>
+        <helpers>
+            <Banners>
+                <class>RonisBT_Banners_Helper</class>
+            </Banners>
+        </helpers>
+    </global>
+
+    <admin>
+        <routers>
+            <banners>
+                <use>admin</use>
+                <args>
+                    <module>RonisBT_Banners</module>
+                    <frontName>banners</frontName>
+                </args>
+            </banners>
+        </routers>
+    </admin>
+
+    <adminhtml>
+
+        <menu>
+            <cms>
+                <children>
+                    <banners module="Banners">
+                        <title>Homepage banners</title>
+                        <action>banners/admin</action>
+                    </banners>
+                </children>
+            </cms>
+        </menu>
+
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <cms>
+                            <children>
+                                <banners>
+                                    <title>Homepage banners</title>
+                                </banners>
+                            </children>
+                        </cms>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+
+        <!--<layout>-->
+            <!--<updates>-->
+                <!--<banners>-->
+                    <!--<file></file>-->
+                <!--</banners>-->
+            <!--</updates>-->
+        <!--</layout>-->
+
+    </adminhtml>
+
+    <!--<frontend>-->
+        <!--<routers>-->
+            <!--<routes>-->
+                <!--<use>standard</use>-->
+                <!--<args>-->
+                    <!--<module>Romantsov_Routes</module>-->
+                    <!--<frontName>romantsov</frontName>-->
+                <!--</args>-->
+            <!--</routes>-->
+        <!--</routers>-->
+    <!--</frontend>-->
+</config>

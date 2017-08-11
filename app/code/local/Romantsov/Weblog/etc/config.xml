@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Romantsov_Weblog>
+            <version>0.1.0</version>
+        </Romantsov_Weblog>
+    </modules>
+    <global>
+        <models>
+            <weblog>
+                <class>Romantsov_Weblog_Model</class>
+                <resourceModel>weblog_resource</resourceModel>
+            </weblog>
+            <weblog_resource>
+                <class>Romantsov_Weblog_Model_Resource</class>
+                <entities>
+                    <blogpost>
+                        <table>blog_posts</table>
+                    </blogpost>
+                </entities>
+            </weblog_resource>
+        </models>
+        <resources>
+            <weblog_setup>
+                <setup>
+                    <module>Romantsov_Weblog</module>
+                    <class>Romantsov_Weblog_Model_Resource_Setup</class>
+                </setup>
+            </weblog_setup>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <weblog>
+                <use>standard</use>
+                <args>
+                    <module>Romantsov_Weblog</module>
+                    <frontName>weblog</frontName>
+                </args>
+            </weblog>
+        </routers>
+    </frontend>
+</config>

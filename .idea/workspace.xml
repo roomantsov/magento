@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="474092e1-1dcb-4524-af77-fce549ecc9f4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/Model/Layout/Update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/Model/Observer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/etc/config.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/2columns-right.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/2columns-right.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Romantsov_Routes.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Romantsov_Routes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,52 +21,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="64" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bannerslider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Bannerslider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BannersliderController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/Adminhtml/Bannerslider/BannersliderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4367">
+              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/etc/config.xml">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-792">
-              <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            <state relative-caret-position="1152">
+              <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
+      <file leaf-file-name="bannerslider.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/bannerslider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/local.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/romantsov/routes/main.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routes/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="4014">
+              <caret line="223" column="43" lean-forward="true" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -65,29 +74,86 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bread</find>
+      <find>right</find>
+      <find>asHtml</find>
+      <find>html</find>
+      <find>output</find>
+      <find>reImageName</find>
+      <find>function reImageName</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/etc/modules/Romantsov_Routes.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Routers/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Routers/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/romantsov/routes/index.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/etc/Alanstormdotcom_Layoutviewer.xml" />
-        <option value="$PROJECT_DIR$/app/etc/modules/Alanstormdotcom_Layoutviewer.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/Model/Observer.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Routes/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/romantsov/routes/main.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/local.xml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Romantsov_Blogpost.xml" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Blogpost/Model/Blogpost.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Blogpost/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Blogpost/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Romantsov_Weblog.xml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Romantsov_Routes.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/Model/Blogpost.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/Model/Resource/Blogpost.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/Model/Resource/Blogpost/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/Model/Resource/Setup.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-install-0.1.0-0.2.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysqli4-upgrade-0.1.0-0.2.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-upgrade-0.1.0-0.2.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-upgrade-0.1.0-0.1.5.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Romantsov/Weblog/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/2columns-right.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/html/flexslider.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/html/promo.phtml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/RonisBT_Banners.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Banner.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/layout/local.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/2columns-right.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/ronisbt/banners/promo.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/banners.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/addbanner.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/addbutton.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/categories.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/standardslider.phtml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Bannerslider.php" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Adminhtml/Banners.php" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Banners.php" />
+        <option value="$PROJECT_DIR$/app/code/local/RonisBT/Banners/controllers/Adminhtml/BannersController.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/bannerslider.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/Adminhtml/Bannerslider/BannersliderController.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Helper/Data.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -117,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,39 +207,179 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Romantsov" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Romantsov" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Romantsov" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banner" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magestore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Helper" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RonisBT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Helper" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -180,23 +387,14 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -204,8 +402,17 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -214,8 +421,8 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -224,11 +431,11 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="romantsov" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -236,11 +443,44 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ronisbt" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ronisbt" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="romantsov" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ronisbt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bannerslider" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -251,35 +491,74 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ronisbt" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ronisbt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="log" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/etc/modules" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block" />
+      <recent name="$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Adminhtml" />
+      <recent name="$PROJECT_DIR$/app/etc/modules" />
       <recent name="$PROJECT_DIR$/skin/frontend/rwd/default/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/adminhtml/default/default" />
       <recent name="$PROJECT_DIR$/app/etc/modules" />
-      <recent name="$PROJECT_DIR$/skin/frontend/rwd/default/images/media" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/layout" />
+      <recent name="$PROJECT_DIR$/app/design/adminhtml/default/default/template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,11 +587,13 @@
       <workItem from="1502183531841" duration="8000" />
       <workItem from="1502183557569" duration="2935000" />
       <workItem from="1502186612227" duration="617000" />
+      <workItem from="1502349295679" duration="17516000" />
+      <workItem from="1502436797766" duration="17211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14412000" />
+    <option name="totallyTimeSpent" value="50840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,33 +608,23 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17689331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24046434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30994764" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30157068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30157068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17468214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,341 +638,413 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3564">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.out" />
-    <entry file="file://$PROJECT_DIR$/.fuse_hidden0000c7b100000001" />
-    <entry file="file://$PROJECT_DIR$/encryption_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product/Type/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2484">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Romantsov_Configviewer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Romantsov_Configviewer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Configviewer/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Configviewer/Model/Observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3564">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.out" />
-    <entry file="file://$PROJECT_DIR$/.fuse_hidden0000c7b100000001" />
-    <entry file="file://$PROJECT_DIR$/encryption_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3564">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.out" />
-    <entry file="file://$PROJECT_DIR$/.fuse_hidden0000c7b100000001" />
-    <entry file="file://$PROJECT_DIR$/encryption_key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/sdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Romantsov_Routes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routers/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routers/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/romantsov/routes/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/Model/Layout/Update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/romantsov_routes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/authorizenet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/Alanstormdotcom_Layoutviewer.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Weblog/Model/Resource/Setup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-install-0.1.0.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Alanstormdotcom_Layoutviewer.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Weblog/sql/weblog_setup/mysql4-upgrade-0.1.0-0.2.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/template/2columns-right.phtml" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/core/messages.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/2columns-right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/html/topmenu.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/html/flexslider.phtml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routes/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/Model/Observer.php">
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Romantsov_Weblog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Banner.php" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/layout/local.xml" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/2columns-right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="57" column="27" lean-forward="false" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/page/html/promo.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="107" column="85" lean-forward="false" selection-start-line="107" selection-start-column="85" selection-end-line="107" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/template/ronisbt/banners/promo.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/ronisbt/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="109" column="82" lean-forward="false" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/RonisBT_Banners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/ActiveCodeline_SampleModule1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/ActiveCodeline/SampleModule1/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/ConfigurableSwatches/Helper/Productimg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/ConfigurableSwatches/Helper/Mediafallback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/magestore/bannerslider/slider1/jquery.slider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/paypal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="202" column="7" lean-forward="true" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
           <folding>
-            <marker date="1502180898000" expanded="true" signature="5701:5792" ph="..." />
-            <marker date="1502180898000" expanded="true" signature="5793:6064" ph="..." />
-            <marker date="1502180898000" expanded="false" signature="5807:5951" ph="..." />
-            <marker date="1502180898000" expanded="true" signature="5990:6064" ph="..." />
-            <marker date="1502180898000" expanded="true" signature="6211:6355" ph="..." />
-            <marker date="1502180898000" expanded="true" signature="6431:6470" ph="..." />
+            <marker date="1502456290000" expanded="true" signature="1035:1081" ph="..." />
+            <marker date="1502456290000" expanded="true" signature="1082:1505" ph="..." />
+            <marker date="1502456290000" expanded="false" signature="1096:1144" ph="..." />
+            <marker date="1502456290000" expanded="true" signature="1145:1324" ph="..." />
+            <marker date="1502456290000" expanded="false" signature="1158:1257" ph="..." />
+            <marker date="1502456290000" expanded="true" signature="1258:1318" ph="..." />
+            <marker date="1502456290000" expanded="true" signature="1327:1499" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/directory.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="-1631">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Preview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Romantsov/Routes/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="-123">
+          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/romantsov/routes/main.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/system.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="147">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/local.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/date.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/addbanner.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="108">
+          <caret line="6" column="82" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="280" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/addbutton.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="594">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#549#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/categories.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/bannerslider/standardslider.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#6;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#7;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#9;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#9;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#10;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#10;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#11;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#11;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#12;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#12;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#13;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#14;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#14;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#15;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="97" column="20" lean-forward="false" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="179" column="30" lean-forward="false" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/Adminhtml/Bannerslider/BannerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/Block/Banners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Bannerslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/banners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/RonisBT/Banners/controllers/Adminhtml/BannersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/controllers/Adminhtml/Bannerslider/BannersliderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4367">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Block/Bannerslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="119" column="35" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="119" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="321" column="31" lean-forward="false" selection-start-line="321" selection-start-column="11" selection-end-line="321" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/bannerslider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4014">
+          <caret line="223" column="43" lean-forward="true" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Magestore/Bannerslider/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -173,7 +173,11 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
     protected $_sortInstructions = array();
 
     /**
-     * Factory instance
+     * Factory instancehis->_controller = 'adminhtml_bannerslider';
+		$this->_blockGroup = 'bannerslider';
+		$this->_headerText = Mage::helper('bannerslider')->__('Slider Manager');
+		$this->_addButtonLabel = Mage::helper('bannerslider')->__('Add Slider');
+		parent::__construct();
      *
      * @var Mage_Core_Model_Factory
      */
