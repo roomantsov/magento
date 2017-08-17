@@ -32,20 +32,17 @@ class RonisBT_Banners_Block_Adminhtml_Banners_Edit_Form extends Mage_Adminhtml_B
             'name'     => 'url'
         ]);
 
-        $fieldset->addField('order', 'text', [
-            'label'    => $helper->__('Order'),
+        $fieldset->addField('position', 'text', [
+            'label'    => $helper->__('Position'),
             'required' => true,
-            'name'     => 'order'
+            'name'     => 'position'
         ]);
 
         $fieldset->addField('status', 'select', [
             'label'    => $helper->__('Status'),
             'required' => true,
             'name'     => 'status',
-            'values'   => [
-                'disable' => 'disable',
-                'enable' => 'enable'
-            ]
+            'values'   => Mage::getModel('ronisbt_banners/statusSource')->toOptionArray()
         ]);
 
         $fieldset->addField('image', 'image', array(

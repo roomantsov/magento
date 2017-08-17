@@ -5,12 +5,12 @@
             <action method="addItem"><type>skin_css</type><file>css/slick.css</file></action>
             <action method="addItem"><type>skin_css</type><file>css/slick-theme.css</file></action>
             <action method="addItem"><type>skin_css</type><file>css/custom.css</file></action>
-        </reference>
-        <reference name="before_body_end">
-            <block type="page/html_head" name="jsfooter" as="jsfooter" template="page/html/jsfooter.phtml">
-                <action method="addJs"><script>slick/slick.js</script></action>
-                <action method="addJs"><script>slick/flex-slider.js</script></action>
-            </block>
+            <action method="addJs">
+                <script>slick/slick.js</script>
+            </action>
+            <action method="addJs">
+                <script>slick/flex-slider.js</script>
+            </action>
         </reference>
         <reference name="content">
             <block type="ronisbt_banners/banners" template="banners/index.phtml" />

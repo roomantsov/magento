@@ -7,11 +7,12 @@ class RonisBT_Banners_Model_Banners extends Mage_Core_Model_Abstract {
         $this->_init('ronisbt_banners/banners');
     }
 
-    protected function _beforeDelete()
+    public function _beforeSave()
     {
-        $helper = Mage::helper('ronisbt_banners');
-        $image_path = Mage::getModel('ronisbt_banners/banners')->load($this->getId())->getImagePath();
-        @unlink(Mage::getBaseDir() . $image_path);
-        return parent::_beforeDelete();
+        if($this->isObjectNew()){
+            $this->setCreatedAt(now());
+        }
+        $this->setUpdatedAt(now());
+        return parent::_beforeSave();
     }
 }

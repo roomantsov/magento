@@ -17,31 +17,40 @@ class RonisBT_Banners_Block_Adminhtml_Banners_Grid extends Mage_Adminhtml_Block_
         ]);
 
         $this->addColumn('title', [
-            'header' => $helper->__('banner title'),
+            'header' => $helper->__('Banner Title'),
             'index'  => 'title',
             'type'   => 'text'
         ]);
 
-        $this->addColumn('order', [
-            'header' => $helper->__('order'),
-            'index'  => 'order',
-            'type'   => 'integer'
+        $this->addColumn('position ', [
+            'header' => $helper->__('Position'),
+            'index'  => 'position',
+            'type'   => 'number'
         ]);
 
         $this->addColumn('status', [
-            'header'  => $helper->__('status'),
+            'header'  => $helper->__('Status'),
             'index'   => 'status',
             'type'    => 'options',
-            'options' => [
-                'enable'  => 'enable',
-                'disable' => 'disable'
-            ]
+            'options' => Mage::getModel('ronisbt_banners/statusSource')->toArray(),
         ]);
 
         $this->addColumn('url', [
             'header' => $helper->__('URL'),
             'index'  => 'url',
             'type'   => 'text'
+        ]);
+
+        $this->addColumn('created_at',[
+            'header' => $helper->__('Created At'),
+            'index'  => 'created_at',
+            'type'   => 'datetime'
+        ]);
+
+        $this->addColumn('updated_at',[
+            'header' => $helper->__('Updated At'),
+            'index'  => 'updated_at',
+            'type'   => 'datetime'
         ]);
 
         return parent::_prepareColumns();
@@ -76,5 +85,21 @@ class RonisBT_Banners_Block_Adminhtml_Banners_Grid extends Mage_Adminhtml_Block_
         return $this->getUrl('*/*/edit', [
             'id' => $item->getId()
         ]);
+    }
+
+    // next functions is for ajax
+
+    public function getGridUrl()
+    {
+        return $this->getUrl('*/*/grid', array('_current'=>true));
+    }
+
+    public function _construct()
+    {
+        parent::_construct();
+
+        $this->setId('ronisbt_banners_grid');
+        $this->setSaveParametersInSession(false);
+        $this->setUseAjax(true);
     }
 }

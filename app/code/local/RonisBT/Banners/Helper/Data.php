@@ -7,7 +7,7 @@ class RonisBT_Banners_Helper_Data extends Mage_Core_Helper_Abstract {
         $uploader->setAllowRenameFiles(false);
         $uploader->setFilesDispersion(false);
         $uploaded_image_name = "{$banner_id}_" . $image['name'];
-        $uploaded_image_url = '/media/ronisbt_banners/' . $uploaded_image_name;
+        $uploaded_image_url = '/ronisbt_banners/' . $uploaded_image_name;
         $uploader->save(Mage::getBaseDir() . '/media/ronisbt_banners', $uploaded_image_name);
 
         return $uploaded_image_url;

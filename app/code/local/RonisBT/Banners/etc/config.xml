@@ -2,7 +2,7 @@
 <config>
     <modules>
         <RonisBT_Banners>
-            <version>0.3.0</version>
+            <version>0.2.0</version>
         </RonisBT_Banners>
     </modules>
     <global>
@@ -19,6 +19,9 @@
                     </table_banners>
                 </entities>
             </banners_resource>
+            <status_source>
+                <class>RonisBT_Banners_Model_StatusSource</class>
+            </status_source>
         </models>
         <blocks>
             <ronisbt_banners>
@@ -39,15 +42,6 @@
         </helpers>
     </global>
     <frontend>
-        <routers>
-            <ronisbt_banners>
-                <use>standard</use>
-                <args>
-                    <module>RonisBT_Banners</module>
-                    <frontName>ronisbt_banners</frontName>
-                </args>
-            </ronisbt_banners>
-        </routers>
         <layout>
             <updates>
                 <ronisbt_banners>
@@ -56,15 +50,26 @@
             </updates>
         </layout>
     </frontend>
+    <!--<admin>-->
+        <!--<routers>-->
+            <!--<ronisbt_banners_admin>-->
+                <!--<use>admin</use>-->
+                <!--<args>-->
+                    <!--<module>RonisBT_Banners</module>-->
+                    <!--<frontName>ronisbt_banners_admin</frontName>-->
+                <!--</args>-->
+            <!--</ronisbt_banners_admin>-->
+        <!--</routers>-->
+    <!--</admin>-->
     <admin>
         <routers>
-            <ronisbt_banners_admin>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <module>RonisBT_Banners</module>
-                    <frontName>ronisbt_banners_admin</frontName>
+                    <modules>
+                        <banners after="Mage_Adminhtml">RonisBT_Banners_Adminhtml</banners>
+                    </modules>
                 </args>
-            </ronisbt_banners_admin>
+            </adminhtml>
         </routers>
     </admin>
     <adminhtml>
@@ -73,7 +78,7 @@
                 <children>
                     <ronisbt_banners module="ronisbt_banners">
                         <title>Homepage banners</title>
-                        <action>ronisbt_banners_admin/adminhtml_banners</action>
+                        <action>adminhtml/banners_banners</action>
                     </ronisbt_banners>
                 </children>
             </cms>

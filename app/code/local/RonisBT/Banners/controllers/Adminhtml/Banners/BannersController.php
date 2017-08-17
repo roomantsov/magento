@@ -1,6 +1,6 @@
 <?php
 
-class RonisBT_Banners_Adminhtml_BannersController extends Mage_Adminhtml_Controller_Action {
+class RonisBT_Banners_Adminhtml_Banners_BannersController extends Mage_Adminhtml_Controller_Action {
     public function indexAction(){
         $this->loadLayout();
         $this->_setActiveMenu('cms');
@@ -40,6 +40,7 @@ class RonisBT_Banners_Adminhtml_BannersController extends Mage_Adminhtml_Control
                 $this->_redirect('*/*/');
             } catch (Exception $e) {
                 Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+                $data['image'] = Mage::helper('ronisbt_banners')->saveBannerImage($_FILES['image'], $model->getId());
                 Mage::getSingleton('adminhtml/session')->setFormData($data);
                 $this->_redirect('*/*/edit', [
                    'id' => $this->getRequest()->getParam('id')
@@ -116,5 +117,14 @@ class RonisBT_Banners_Adminhtml_BannersController extends Mage_Adminhtml_Control
         }
 
         $this->_redirect('*/*');
+    }
+
+    // next function is for ajax loading grid
+
+    public function gridAction(){
+        $this->loadLayout();
+        $this->getResponse()->setBody(
+            $this->getLayout()->createBlock('ronisbt_banners/adminhtml_banners_grid')->toHtml()
+        );
     }
 }
