@@ -22,6 +22,9 @@
             <status_source>
                 <class>RonisBT_Banners_Model_StatusSource</class>
             </status_source>
+            <banner_image>
+                <class>RonisBT_Banners_Model_Image</class>
+            </banner_image>
         </models>
         <blocks>
             <ronisbt_banners>
@@ -39,6 +42,9 @@
             <ronisbt_banners>
                 <class>RonisBT_Banners_Helper</class>
             </ronisbt_banners>
+            <banner_image>
+                <class>RonisBT_Banners_Helper_Image</class>
+            </banner_image>
         </helpers>
     </global>
     <frontend>
@@ -50,17 +56,6 @@
             </updates>
         </layout>
     </frontend>
-    <!--<admin>-->
-        <!--<routers>-->
-            <!--<ronisbt_banners_admin>-->
-                <!--<use>admin</use>-->
-                <!--<args>-->
-                    <!--<module>RonisBT_Banners</module>-->
-                    <!--<frontName>ronisbt_banners_admin</frontName>-->
-                <!--</args>-->
-            <!--</ronisbt_banners_admin>-->
-        <!--</routers>-->
-    <!--</admin>-->
     <admin>
         <routers>
             <adminhtml>
@@ -84,4 +79,14 @@
             </cms>
         </menu>
     </adminhtml>
+    <default>
+        <banners>
+            <image>
+                <base_height>400</base_height>
+                <max_dimension>5000</max_dimension>
+                <media_path>/media/ronisbt_banners</media_path>
+                <placeholder>comingsoon.png</placeholder>
+            </image>
+        </banners>
+    </default>
 </config>
