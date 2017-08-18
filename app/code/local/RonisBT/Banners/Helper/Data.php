@@ -1,5 +1,4 @@
 <?php
-
 class RonisBT_Banners_Helper_Data extends Mage_Core_Helper_Abstract {
     public function saveBannerImage($image, $banner_id){
         $uploader = new Varien_File_Uploader('image');
